@@ -1,0 +1,177 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css");
+
+@media (max-width: 950px) {
+  .wizard.wizard-5 .wizard-aside {
+    display: none !important;
+  }
+  #mobile_view {
+    display: none !important;
+  }
+  #font_size_mobile {
+    font-size: 11px !important;
+  }
+  .table th,
+  .table td {
+    padding: 0.25rem;
+  }
+  #mobile_btn {
+    padding: 4px !important;
+  }
+  .customer_module_image {
+    margin: 5px;
+    box-shadow: -1px -1px 5px rgba(133, 123, 123, 0.75);
+    height: 100px !important;
+    width: 100px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .customer_module_image {
+    margin: 5px;
+    box-shadow: -1px -1px 5px rgba(133, 123, 123, 0.75);
+    height: 50px !important;
+    width: 50px !important;
+  }
+}
+
+element.style {
+  height: 240px;
+}
+.offcanvas.offcanvas-right {
+  left: auto;
+  right: -395px;
+}
+
+@media (max-width: 425px) {
+  .offcanvas {
+    width: 90% !important;
+  }
+}
+
+.customer_module_image {
+  margin: 5px;
+  box-shadow: -1px -1px 5px rgba(133, 123, 123, 0.75);
+  height: 150px !important;
+  width: 150px !important;
+}
+
+.p-autocomplete {
+  width: 100%;
+}
+
+.p-autocomplete-panel.p-component.p-ripple-disabled .p-highlight {
+  background: #fff;
+  padding: 4px;
+  border-radius: 6px;
+  color: #000;
+}
+
+/* .wave:after {
+    content: " ";
+    width: 1200px;
+    height: 1200px;
+    position: absolute;
+    bottom: 65%;
+    left: -190px;
+    border-radius: 35%;
+    background: white;
+    z-index: 0;
+  } */
+.p-autocomplete-panel.p-component.p-ripple-disabled {
+  font-size: 14px;
+  background-color: rgb(255 185 5 / 100%);
+  padding: 0 18px;
+  border-radius: 5px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  line-height: 30px;
+  color: #fff;
+}
+
+/* Datatable's design */
+table.dataTable thead th,
+table.dataTable thead td {
+  border: none !important;
+}
+
+table.dataTable.no-footer {
+  border: none !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  color: blue !important;
+  font-weight: bold !important;
+}
+.dataTables_wrapper .dataTables_filter label {
+  color: blue !important;
+  font-weight: bold !important;
+}
+
+/* For larger Checkbox input fields in Smg incoming Order Table  */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box !important;
+  padding: 0 !important;
+  height: 10px !important;
+  -ms-transform: scale(2) !important;
+  -moz-transform: scale(2) !important;
+  -webkit-transform: scale(2) !important;
+  -o-transform: scale(2) !important;
+  transform: scale(2) !important;
+}
+
+/* Create Order Style */
+.wdithWhenCreateOrder {
+  width: 137px !important;
+}
+.grandTotalWhenCreateOrder {
+  width: auto !important;
+  float: right !important;
+  margin: 10px 5px !important;
+}
+
+.otpSubmitbtn {
+  margin: 0 50%;
+}
+
+/* Unit and Purchase print */
+@media print {
+  #purchase_amount {
+    display: block !important;
+  }
+
+  .mobile-logo {
+    margin-left: 37% !important;
+    padding-bottom: 10px !important;
+  }
+  .card-toolbar,
+  .dataTables_info,
+  .paginate_button,
+  .subheader,
+  .input-icon,
+  .hideForPrint,
+  #unitAndPurchaseTableId_filter,
+  #unitAndPurchaseTableId_length {
+    display: none !important;
+  }
+
+  #print_total_price {
+    margin: auto !important;
+    text-align: center !important;
+    align-items: center !important;
+    align-content: center !important;
+  }
+
+  .brand-logo .mobile-logo {
+    margin: auto !important;
+    text-align: center !important;
+    align-items: center !important;
+    align-content: center !important;
+  }
+}
